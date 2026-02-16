@@ -1,0 +1,27 @@
+#include <iostream>
+#include <iomanip>
+#include <set>
+#include <cctype>
+#include <algorithm>
+using namespace std;
+
+
+int main()
+{
+    string a,b, res="";
+    cin >> a;
+    cin >> b;
+    int n=a.length();
+
+    for (int i=0;i<n;i++){
+            if (a[i]!=b[i]){
+                res+="1";
+            }
+            else {
+                res+="0";
+            }
+    }
+    cout << res <<endl;
+
+    return 0;
+}
