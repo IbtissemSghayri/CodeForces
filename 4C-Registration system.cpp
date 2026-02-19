@@ -12,11 +12,7 @@ int main()
     cin >> n;
     string tab[n];
     for (int i=0;i<n;i++){
-        tab[i]="";
-    }
-
-    string a;
-    for (int i=0;i<n;i++){
+        string a;
         cin >> a;
         if (find(tab,tab+i,a)!=tab+i){
             int k=0;
