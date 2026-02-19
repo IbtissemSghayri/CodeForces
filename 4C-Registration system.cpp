@@ -18,20 +18,17 @@ int main()
     string a;
     for (int i=0;i<n;i++){
         cin >> a;
-        if (find(tab,tab+n,a)!=tab+n){
-            int j=i, k=0;
-            while (a.find (tab[j])!=0){
-                j++;
-                k++;
+        if (find(tab,tab+i,a)!=tab+i){
+            int k=0;
+            string res;
+            for (int j=0;j<i;j++){
+                if (tab[j]==a){
+                    k++;
+                }
             }
-            if (k==1){
-                a+=k+'0';
-            }
-            else {
-                a+=k-1+'0';
-            }
+            res=a+to_string(k);
 
-            cout << a << endl;
+            cout << res << endl;
         }
         else {
             cout << "OK"<<endl;
