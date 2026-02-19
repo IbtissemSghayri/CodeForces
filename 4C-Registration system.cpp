@@ -6,6 +6,17 @@
 using namespace std;
 
 
+
+//Time limit exceeded on test 7
+
+
+
+
+
+
+
+
+
 int main()
 {
     int n;
