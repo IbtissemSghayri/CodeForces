@@ -16,7 +16,7 @@ int main()
     bool ok=true;
 
     while (ok==true && i<len){
-        if (n[i]==s[len-i-1a]){
+        if (n[i]==s[len-i-1]){
             i++;
         }
         else {
