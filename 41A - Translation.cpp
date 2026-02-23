@@ -12,6 +12,12 @@ int main()
     cin >>n>>s;
 
     int len=n.length();
+    int len1=s.length();
+
+    if (len!=len1){
+        cout <<"NO"<<endl;
+    }
+    else {
     int i=0;
     bool ok=true;
 
@@ -28,6 +34,7 @@ int main()
     }
     else {
         cout <<"NO"<<endl;
+    }
     }
 
 
