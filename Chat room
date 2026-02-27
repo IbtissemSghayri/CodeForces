@@ -18,6 +18,9 @@ int main()
         if (n[i]==tab[j]){
             j++;
         }
+        if (j==5){
+            break;
+        }
     }
     if (j==5){
         cout<<"YES"<<endl;
