@@ -7,6 +7,12 @@
 using namespace std;
 
 
+
+
+//wrong on test4 
+
+
+
 int main()
 {
     int n;
@@ -17,11 +23,11 @@ int main()
         cin >> a;
         int b=sqrt(a);
         if (b*b==a && a>3){
-            int j=1;
+            int j=2;
             bool test=true;
             int k=sqrt(b);
             while (j<k){
-                if (k%j==0){
+                if (b%j==0){
                     test=false;
                     break;
                 }
