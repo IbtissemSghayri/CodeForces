@@ -6,7 +6,7 @@
 #include <cmath>
 using namespace std;
 
-
+//ghalet
 int main()
 {
     int n,m,a,b;
