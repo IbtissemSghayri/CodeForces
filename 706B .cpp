@@ -22,17 +22,12 @@ int main()
 
 
     cin >>q;
-    int res=0;
     for (int i=0;i<q;i++){
-        res=0;
         int b,j=0;
         cin>>b;
-        while (tab[j]<=b && j<n){
-            res++;
-            j++;
-        }
+        int res=upper_bound(tab,tab+n,b)-tab;
 
-        cout <<res<<endl;
+        cout <<res<<"\n";
     }
 
 
